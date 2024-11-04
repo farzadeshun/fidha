@@ -12228,6 +12228,10 @@ svg {
   padding: 4px 0;
 }
 
+.nav-a {
+  color: #fff;
+}
+
 .aa-3 {
   font-size: 18px;
   font-weight: 500;
@@ -12235,6 +12239,7 @@ svg {
   background: #219ebc;
   color: #fff;
   border: 1px solid #219ebc;
+  display: none;
 }
 
 .aa-2 {
@@ -12545,6 +12550,9 @@ span.span-title {
 @media only screen and (max-width: 997px) {
   .aa {
     display: none;
+  }
+  .aa-3 {
+    display: block;
   }
   .about .content-left img {
     margin-top: 220px;
